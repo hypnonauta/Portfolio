@@ -1,0 +1,125 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="images/Favicon/fav-circle.svg">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Emoji:wght@300..700&display=swap" rel="stylesheet">
+    <meta name="author" content="Eduardo Cardoso">
+    <meta name="description" content="Eduardo Cardoso's portfolio website.">
+</head>
+<body>
+        <!-- header -->
+        <header class="title">
+            <div class="title-name">
+                <h1>Eduardo Cardoso</h1>
+                <h2>Portfolio</h2>
+            </div>
+            <nav id="navigation">
+                <ul>
+                    <li><a href="#intro">Intro</a></li>
+                    <li><a href="#web-design">Web Design & Development</a></li>
+                    <li><a href="#art">Art</a></li>
+                </ul>
+            </nav>
+        </header>        
+        <!-- Main section -->
+        <div class="main">
+            <!-- Intro -->
+             <!-- This section has the id = intro for it to work with the nav link -->
+            <section class="intro section" id="intro"> 
+                <div>
+                    <img src = "images/Selfie/1000016095-b-sqr-b&w.jpg" alt = "Self portrait avatar">
+                </div>
+                <div id="intro-text">
+                <h2>Hello!</h2>
+                <h2>My name is Eduardo Cardoso. I'm an artist/mail artist, musician and web developer.</h2>
+                <h2>I'm very fond of minimalism and my works, ranging from visual poetry to collage and mixed media,
+                    usually focus on simplicity and reduction of elements.
+                    Along the years I developed my own expression and some artists inside the Mail Art network
+                    call my style, not minimalism, but distillism, as I distill the works to their essential and
+                    sometimes to very basic shapes.
+                </h2>
+                <h2>As a web developer I currently work with HTML + CSS and I'm slowly diving into Javascript.
+                </h2>
+                </div>
+            </section>
+            <!-- Web Design -->
+            <!-- This section has the id = web-design for it to work with the nav link -->
+            <section class="web-design section" id="web-design">
+                <div class="vertical-header">
+                    <p id="vertical-header-paragraph">Web Design & Development</p>
+                </div>
+                <div class="web-design-content">
+                    <div class="web-design-card">
+                        <a href="https://ecardoso.neocities.org/">
+                            <img class ="web-design-img" src="./images/Web design/ecardoso-neocities.jpg" alt="Preview of my personal website"/>
+                        </a>
+                        <p>My personal website</p>
+                    </div>
+                    <div class="web-design-card">
+                        <a href="https://hypnonauta.github.io/Morte-Botanica/">
+                            <img class="web-design-img" src="images/Web design/MB-official-website.jpg" alt="Preview of Morte Botânica website">
+                        </a>
+                        <p>Morte Botânica Official Website</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Art -->
+            <!-- This section has the id = art for it to work with the nav link -->
+            <section class="art section" id="art">
+                <div class="vertical-header">
+                    <p id="vertical-header-paragraph">Art</p>
+                </div>
+                <div class="art-content">
+                    <div class="card">
+                        <img class="art-img" src="images/Art/01.jpg" alt="Visual poetry with collage">
+                    </div>
+                    <div class="card">
+                        <img class="art-img" src="images/Art/02.jpg" alt="Visual poetry with collage">
+                    </div>
+                    <div class="card">
+                        <img class="art-img" src="images/Art/03.jpg" alt="Black circle on white paper">
+                    </div>
+                    <div class="card">
+                        <img class="art-img" src="images/Art/05.jpg" alt="Abstract monotype with small black circle">
+                    </div>
+                    <div class="card">
+                        <img class="art-img" src="images/Art/06.jpg" alt="Mixed media collage">
+                    </div>
+                    <div class="card">
+                        <img class="art-img" src="images/Art/07.jpg" alt="Mixed media collage">
+                    </div>
+                </div>
+            </section>
+        </div>
+    <!-- </div> -->
+    <footer>
+        <div class="footer-content">
+            <div id="contacts">
+                <p><strong>Contacts</strong></p>
+                <a href="mailto: ejs.cardoso@outlook.com"><button><img id="email-img" src="images/Emoji/email-9-white.svg" alt="Email emoji.">Email</button></a>
+                <div id="social">
+                    <a href="https://sunny.garden/@neocolapsar"><img class="social-icon" src="images/Emoji/logo-white.svg" alt="Mastodon icon."></a>
+                    <a id="github" href="https://github.com/hypnonauta"><img class="social-icon" src="images/Emoji/github-mark-white.svg" alt="github icon."></a>
+                </div>
+            </div>
+            <div>
+                <p>© Eduardo Cardoso 2025</p>
+            </div>
+        </div>
+    </footer>
+    <script src="index.js"></script>
+</body>
+</html>
