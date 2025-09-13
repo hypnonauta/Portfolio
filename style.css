@@ -111,7 +111,7 @@ nav a:hover {
     height: auto;
 }
 
-#vertical-header-paragraph {
+.vertical-header-paragraph {
     transform: rotate(180deg);
     writing-mode: vertical-rl;
     font-size: 2rem;
@@ -344,9 +344,10 @@ button {
         align-items: center;
         width: 100%;
         height: auto;
+        text-align: center;
     }
 
-    #vertical-header-paragraph {
+    .vertical-header-paragraph {
         transform: rotate(0deg);
         writing-mode: horizontal-tb;
         font-size: 2rem;
