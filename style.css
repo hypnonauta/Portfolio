@@ -142,7 +142,7 @@ border-radius: 50%;
     gap: 25px;
     padding-left: 50px;
     width: 100%;
-    grid-template-columns: 350px 350px;
+    grid-template-columns: 350px 350px 350px;
 }
 
 .web-design-card {
